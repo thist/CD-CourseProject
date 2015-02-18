@@ -4,7 +4,7 @@
 # - file y_train/test: type of activity (numbers 1-6, activities described in activity_labels.txt)
 # - file subject_train/test: person id
 
-# Output: Tidy Data Set in File "tidy_data.csv"
+# Output: Tidy Data Set in File "tidy_data.txt"
 
 library(dplyr)
 
@@ -79,5 +79,5 @@ data_frame_averages <- data_frame_all_measurements %>% group_by(personId, activi
 #------------------------------------------------------------------
 
 # write data to file
-write.table(data_frame_averages, file = "./tidy_data.csv", row.name=FALSE)
+write.table(data_frame_averages, file = "./tidy_data.txt", row.name=FALSE)
 

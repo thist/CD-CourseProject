@@ -8,9 +8,9 @@ The tidy dataset is derived from "Human Activity Recognition Using Smartphones D
 Description of Files
 --------------------
 
-* File *run_analysis.R* performs transformations (described below) to the data set and creates a file "tidy_data.csv" containing for each combination of personID (1st column) and activity (2nd column) the average for each variable on measurements of the mean and standard deviation of the original data set.
+* File *run_analysis.R* performs transformations (described below) to the data set and creates a file "tidy_data.txt" containing for each combination of personID (1st column) and activity (2nd column) the average for each variable on measurements of the mean and standard deviation of the original data set.
 
-* File *Codebook.md*  describes the variables of the output file "tidy_data.csv".
+* File *Codebook.md*  describes the variables of the output file "tidy_data.txt".
 
 
 Description of Input Data Set
